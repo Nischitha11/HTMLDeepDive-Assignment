@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+</head>
+<body>
+    <style>
+        body{background-color: rgb(35, 35, 245);}
+        form{margin-top:100px;
+            margin-left:300px;
+            padding: 20px;
+            width: 700px;
+            background-color: aliceblue;
+            }
+        fieldset{padding: 10px;}
+        
+    </style>
+    <form action="google.com" method="post">
+        <fieldset>
+            <legend><b>Registration Form</b></legend>
+            <label>First Name:</label>
+            <input type="text" name="First Name" placeholder="firstname" value="First Name">
+            <label>Last Name:</label>
+            <input type="text" name="lastname" placeholder="Last Name" value="Last name"><br>
+            <br>
+            <div>
+               
+                <input type="radio" name="male">
+                <label >Male</label>
+
+                <input type="radio" name="female">
+                <label>Female</label>
+
+                <input type="radio" name="others">
+                <label>Others</label>
+            </div><br>
+            <div>
+                <input type="checkbox" name="cardio">
+                <label>Cardio</label>
+
+                <input type="checkbox" name="weight loss">
+                <label>Weight Loss</label>
+            </div><br>
+            <div>
+                <label>EMail:</label>
+                <input type="text" name="Email" placeholder="Email">
+
+                <label>Password:</label>
+                <input type="text" name="password" placeholder="Password">
+
+            </div><br>
+            <button>Reset</button>
+            <button>Submit</button>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
